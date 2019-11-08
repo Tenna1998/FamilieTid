@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="familietid.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Libre+Franklin:300&display=swap" rel="stylesheet">
     <title>FamilieTid</title>
 </head>
-<body>
+<body class="time">
 
-    <h1>Varighed</h1>
-    <p>Hvor lang tid skal aktiviteten vare?</p>
+    <h2>Varighed</h2>
+    <p>Hvor lang tid skal <br> aktiviteten vare?</p>
+        <section class="range-slider">
+            <span class="rangeValues"></span>
+            <input value="2" min="0" max="8" step="1" type="range">
+            <input value="6" min="0" max="8" step="1" type="range">
+        </section>
+    <a href="budget.html">Næste</a>
 
-    <p>Næste</p>
+    <script src="slider.js"></script>
 </body>
 </html>
