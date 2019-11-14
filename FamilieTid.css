@@ -16,8 +16,6 @@ h1 {
     color: #ED6E23;
     font-size: 84px;
     background-color: white;
-    padding-left: 100%;
-    padding-right: 100%;
     margin-bottom: 20px;
 }
 h2 {
@@ -68,33 +66,83 @@ a {
 }
 
 .money {
+    max-width: 30%;
     background-color: #60BDC3;
     padding: 40px 60px 40px 60px;
-    margin: 0px 60px 0px 60px;
+    margin: 20px 60px 0px 60px;
     border-radius: 10px;
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.1), 0 3px 10px 0 rgba(0,0,0,0.19);
 }
 
-
 .confetti {
-    max-width: 30%;
+    max-width: 100%;
+    padding-top: 40px;
+}
+
+.result {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+
+.resultbox {
+    background-color: #60BDC3;
+    grid-column: 1/4;
+    color: #69BBC5;
+    grid-column: 1/4;
+}
+
+h3 {
+    background-color: #60BDC3;
+    font-family: 'Libre Franklin', sans-serif;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding: 40px 10px 40px 10px;
+    margin: 0px;
+}
+
+.textresult {
+    background-color: #60BDC3;
+    padding: 10px;
+}
+
+.textlast {
+    background-color: #60BDC3;
+    padding: 0px 0px 50px 0px;
 }
 
 .download {
-   max-width: 30%;
+    background-color: #60BDC3;
+    grid-column: 2/3;
+    max-width: 10%;
+    justify-content: end;
 }
-.iconimage {
-    max-width: 40%;
+
+.resultbutton {
+    grid-column: 2/3;
+    display: flex;
+    justify-items: center;
+}
+
+.home {
     background-color: #ED6E23;
+    margin: 10px;
 }
+
+.refresh {
+    background-color:#ED6E23;
+    justify-self: center;
+}
+
 .iconbuttons {
-    background-color: #ED6E23;
-    padding: 0px 0px 0px 0px;
-    margin: 40px;
+    margin: 10px;
+    grid-column: 2/3;
     border-radius: 40px;
-    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.1), 0 3px 10px 0 rgba(0,0,0,0.19);
-    text-decoration: none;
 }
+
+
+
 
 /* range slider */
 
@@ -152,7 +200,7 @@ section.range-slider input:last-of-type::-moz-range-track {
     border: 0;
 }
   section.range-slider input[type=range]::-moz-focus-outer {
-  border: 0;
+    border: 0;
 }
 
 /* range slider style */
