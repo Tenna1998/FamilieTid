@@ -48,8 +48,9 @@ a {
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.1), 0 3px 10px 0 rgba(0,0,0,0.19);
     text-decoration: none;
     width: 50%;
+    max-width: 50%;
     align-self: center;
-    text-align: center;
+    
 }
 
 .picnic {
@@ -66,10 +67,10 @@ a {
 }
 
 .money {
-    max-width: 30%;
+    max-width: 60%;
     background-color: #60BDC3;
-    padding: 40px 60px 40px 60px;
-    margin: 20px 60px 0px 60px;
+    padding: 20px 60px 20px 60px;
+    margin: 10px 60px 0px 60px;
     border-radius: 10px;
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.1), 0 3px 10px 0 rgba(0,0,0,0.19);
 }
@@ -127,15 +128,15 @@ h3 {
 
 .home {
     background-color: #ED6E23;
-    margin: 10px;
 }
 
 .refresh {
+    min-width: 50%;
     background-color:#ED6E23;
-    justify-self: center;
 }
 
 .iconbuttons {
+    max-width: 50%;
     margin: 10px;
     grid-column: 2/3;
     border-radius: 40px;
