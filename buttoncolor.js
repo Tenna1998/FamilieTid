@@ -1,5 +1,5 @@
-let bntUdendørs = document.querySelector('#udendørs');
-let bntIndendørs = document.querySelector('#indendørs');
+let btnUdendørs = document.querySelector('#udendørs');
+let btnIndendørs = document.querySelector('#indendørs');
 
-bntUdendørs.addEventListener('click', ()=>bntUdendørs.style.backgroundColor='#4Ba6ac')
-bntIndendørs.addEventListener('click', ()=>bntIndendørs.style.backgroundColor='#4Ba6ac')
+btnUdendørs.addEventListener('click', () => btnUdendørs.style.backgroundColor ='#4Ba6ac')
+btnIndendørs.addEventListener('click', () => btnIndendørs.style.backgroundColor ='#4Ba6ac')
