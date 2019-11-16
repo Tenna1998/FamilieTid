@@ -37,7 +37,20 @@ p {
     padding: 0px;
 }
 
-.button {
+button{
+    font-family: 'Libre Franklin', sans-serif;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    background-color: #60BDC3;
+    padding: 40px 60px 40px 60px;
+    margin: 0px 60px 0px 60px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.1), 0 3px 10px 0 rgba(0,0,0,0.19);
+}
+
+.buttonorange {
     font-family: 'Amatic SC';
     color: white;
     font-size: 45px;
