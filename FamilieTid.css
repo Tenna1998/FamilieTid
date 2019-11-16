@@ -37,7 +37,7 @@ p {
     padding: 0px;
 }
 
-a {
+.button {
     font-family: 'Amatic SC';
     color: white;
     font-size: 45px;
@@ -90,7 +90,6 @@ a {
     background-color: #60BDC3;
     grid-column: 1/4;
     color: #69BBC5;
-    grid-column: 1/4;
 }
 
 h3 {
@@ -120,28 +119,34 @@ h3 {
     justify-content: end;
 }
 
+
 .resultbutton {
-    grid-column: 2/3;
-    display: flex;
+   display: flex;
     justify-items: center;
+    
 }
+
+
 
 .home {
+
     background-color: #ED6E23;
-}
-
-.refresh {
-    min-width: 50%;
-    background-color:#ED6E23;
-}
-
-.iconbuttons {
-    max-width: 50%;
-    margin: 10px;
-    grid-column: 2/3;
+    padding: 10px 50px 10px 50px;
+    margin: 40px;
     border-radius: 40px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.1), 0 3px 10px 0 rgba(0,0,0,0.19);
+    text-decoration: none;
+    max-block-size: 80px;
 }
-
+.refresh{
+    background-color: #ED6E23;
+    padding: 10px 50px 10px 50px;
+    margin: 40px;
+    border-radius: 40px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.1), 0 3px 10px 0 rgba(0,0,0,0.19);
+    text-decoration: none;
+    max-block-size: 80px;
+}
 
 
 
