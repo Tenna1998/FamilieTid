@@ -67,7 +67,7 @@ button{
 }
 
 .picnic {
-  max-width: 500px;
+  max-width: 400px;
   padding-top: 50px;
   
 }
@@ -136,7 +136,8 @@ h3 {
 
 .resultbutton {
    display: flex;
-    justify-items: center;
+  justify-items: start;
+  
     
 }
 
@@ -146,7 +147,7 @@ h3 {
 
     background-color: #ED6E23;
     padding: 10px 50px 10px 50px;
-    margin: 40px;
+    margin: 10px;
     border-radius: 40px;
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.1), 0 3px 10px 0 rgba(0,0,0,0.19);
     text-decoration: none;
@@ -155,7 +156,7 @@ h3 {
 .refresh{
     background-color: #ED6E23;
     padding: 10px 50px 10px 50px;
-    margin: 40px;
+    margin: 10px;
     border-radius: 40px;
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.1), 0 3px 10px 0 rgba(0,0,0,0.19);
     text-decoration: none;
